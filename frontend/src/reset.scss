@@ -1,0 +1,14 @@
+@import url('../node_modules/bootstrap/scss/bootstrap.scss');
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input, textarea, *[contenteditable="true"] {
+  &:focus {
+    outline: 0;
+  }
+}
